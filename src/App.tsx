@@ -1,9 +1,10 @@
 import './App.scss';
+import Navbar from './layouts/navbar/navbar.component';
 
 function App() {
-
   return (
     <>
+      <Navbar />
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
