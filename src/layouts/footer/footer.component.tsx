@@ -16,10 +16,15 @@ export default function Footer() {
         <div>
           <span className="footer-title">Contact us</span>
           <a className="link link-hover">
+            <span className="material-icons-round mr-2 relative top-1.5">place</span>
             Institution of Agricultural Technologists No. 15, Queen’s Road, Bangalore-560 052
           </a>
-          <a className="link link-hover">Ph No : 80 22384175</a>
+          <a className="link link-hover">
+            <span className="material-icons-round mr-2 relative top-1.5">phone</span>
+            Ph No : 80 22384175
+          </a>
           <a className="link link-hover" href="mailto:iatbangalore@gmail.com">
+            <span className="material-icons-round mr-2 relative top-1.5">mail</span>
             iatbangalore@gmail.com
           </a>
         </div>
