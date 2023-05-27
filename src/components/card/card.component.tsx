@@ -1,15 +1,16 @@
 import { CardObject } from './card.type';
+import './card.scss'
 
 function CardComponent(cardInputs: CardObject) {
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
+      <div className="card w-full bg-base-100 card-container border-black">
+        <figure>
           <img src={cardInputs.memberPhoto} alt={cardInputs.memberName} className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">{cardInputs.memberName}</h2>
-          <p>{cardInputs.memberPost}</p>
+          <h2 className="card-member-name">{cardInputs.memberName}</h2>
+          <p className='card-member-post'>{cardInputs.memberPost}</p>
         </div>
       </div>
     </>
