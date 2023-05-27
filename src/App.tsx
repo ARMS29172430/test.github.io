@@ -1,10 +1,10 @@
 import './App.scss';
-import AboutUs from './Screens/About Us/about-us.component';
+import Management from './screens/management/management.component';
 
 function App() {
   return (
     <>
-      <AboutUs />
+      <Management />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import CardComponent from '../../Components/Card/card.component';
+import CardComponent from '../../components/card/card.component';
 import member1 from '../../assets/MemberPhotos/1.jpg';
 import member2 from '../../assets/MemberPhotos/2.jpg';
 import member3 from '../../assets/MemberPhotos/3.jpg';
@@ -6,7 +6,7 @@ import member4 from '../../assets/MemberPhotos/4.jpg';
 import member5 from '../../assets/MemberPhotos/5.jpg';
 import member6 from '../../assets/MemberPhotos/6.jpg';
 
-function AboutUs() {
+function Management() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -41,4 +41,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Management;
