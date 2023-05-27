@@ -1,4 +1,4 @@
-import { CardObject } from "./card.type";
+import { CardObject } from './card.type';
 
 function CardComponent(cardInputs: CardObject) {
   return (
