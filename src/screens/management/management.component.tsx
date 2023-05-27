@@ -15,7 +15,7 @@ function Management() {
         Management
         <span className="short_br"></span>
       </h1>
-      
+
       <p className="paragraph-style">
         The Governing Body of the Institutions shall be the Managing Committee. The administration
         and management of the institution shall vest with the Managing committee consisting of 15
@@ -26,22 +26,22 @@ function Management() {
       </p>
       <ul className="member-list">
         <li className="list-style">
-          <img src={listImg} alt="list" className='h-3 mt-2.5 mr-1'/> President - 1
+          <img src={listImg} alt="list" className="h-3 mt-2.5 mr-1" /> President - 1
         </li>
         <li className="list-style">
-          <img src={listImg} alt="list" className='h-3 mt-2.5 mr-1'/>
+          <img src={listImg} alt="list" className="h-3 mt-2.5 mr-1" />
           Vice-President - 2
         </li>
         <li className="list-style">
-          <img src={listImg} alt="list" className='h-3 mt-2.5 mr-1' />
+          <img src={listImg} alt="list" className="h-3 mt-2.5 mr-1" />
           Secretary - 1
         </li>
         <li className="list-style">
-          <img src={listImg} alt="list" className='h-3 mt-2.5 mr-1' />
+          <img src={listImg} alt="list" className="h-3 mt-2.5 mr-1" />
           Joint Secretary - 1
         </li>
         <li className="list-style">
-          <img src={listImg} alt="list" className='h-3 mt-2.5 mr-1' />
+          <img src={listImg} alt="list" className="h-3 mt-2.5 mr-1" />
           Treasurer - 1
         </li>
       </ul>
@@ -51,7 +51,7 @@ function Management() {
         President of the chapter or his nominee,who in its opinion will be useful to the Managing
         Committee in the dischargeof its functions, on a rotation for one year term.
       </p>
-            <div className="managingComittee">
+      <div className="managingComittee">
         <h4> Managing Committee 2022 - 2025 </h4>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
