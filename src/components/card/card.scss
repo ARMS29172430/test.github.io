@@ -1,0 +1,19 @@
+.card-container {
+  box-shadow: 0 0 5px 0 #04921c;
+  border-radius: 10px;
+  min-height: 265px;
+  padding: 25px;
+  margin: 25px 0;
+}
+
+.card-member-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #04921c;
+}
+
+.card-member-post {
+  font-size: 12px !important;
+  color: #333;
+  text-align: center;
+}
