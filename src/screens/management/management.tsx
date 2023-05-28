@@ -1,4 +1,6 @@
 import './management.scss';
+import '../../App.scss'
+
 import member1 from '../../assets/MemberPhotos/1.jpg';
 import member2 from '../../assets/MemberPhotos/2.jpg';
 import member3 from '../../assets/MemberPhotos/3.jpg';
@@ -11,7 +13,7 @@ import CardComponent from '../../components/card/card.component';
 function Management() {
   return (
     <>
-      <h1 className="management-header">
+      <h1 className="page-header">
         Management
         <span className="short_br"></span>
       </h1>
