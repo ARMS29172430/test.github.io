@@ -3,11 +3,12 @@ import ContactUs from './screens/contact-us/contact-us';
 import Footer from './layouts/footer/footer.component';
 import Management from './screens/management/management';
 import Navbar from './layouts/navbar/navbar.component';
+import AboutUs from './screens/about-us/about-us';
 
 // create a routes array to manage all routes
 const routes: { path: string; element: JSX.Element }[] = [
   { path: '', element: <div>Home!</div> },
-  { path: 'about-us', element: <div>About us!</div> },
+  { path: 'about-us', element: <AboutUs /> },
   { path: 'contact-us', element: <ContactUs /> },
   { path: 'management', element: <Management /> },
 ];
