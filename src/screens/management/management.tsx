@@ -15,7 +15,7 @@ function Management() {
     <>
       <h1 className="page-header">
         Management
-        <span className="short_br"></span>
+        <span className="horizontal-line"></span>
       </h1>
 
       <p className="paragraph-style">
