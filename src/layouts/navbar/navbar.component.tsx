@@ -1,155 +1,102 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import './navbar.scss';
+
 export default function Navbar() {
   return (
-    <nav className="navbar bg-base-100">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+    <nav className="navbar-container">
+      <img src="http://iatbangalore.com/assets/images/logo.png" alt="logo" />
+      <div className="navbar bg-green-1">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabIndex={0} className="btn btn-ghost sm:hidden">
+              <span className="material-icons-round text-white">menu</span>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-green-1 rounded-box w-fit"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <a>Home</a>
-            </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
-                About us
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2 bg-base-100 z-10">
-                <li>
-                  <a>History</a>
-                </li>
-                <li>
-                  <a>Objectives</a>
-                </li>
-                <li>
-                  <a>History of H.R.Arakeri</a>
-                </li>
-              </ul>
-            </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
-                Management
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2 bg-base-100 z-10">
-                <li>
-                  <a>Managing Committee</a>
-                </li>
-                <li>
-                  <a>Members</a>
-                </li>
-                <li>
-                  <a>Co-opted Members</a>
-                </li>
-                <li>
-                  <a>Ex-Officio Members</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Contact us</a>
-            </li>
-          </ul>
+              <li>
+                <a className="btn btn-ghost text-white">HOME</a>
+              </li>
+              <li tabIndex={0}>
+                <a className="btn btn-ghost text-white">ABOUT US</a>
+                <ul className="p-2 bg-base-100 z-10 border border-slate-300 ml-2">
+                  <li>
+                    <a className="hover:bg-sky-500/75">History</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Objectives</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">History of H.R.Arakeri</a>
+                  </li>
+                </ul>
+              </li>
+              <li tabIndex={0}>
+                <a className="btn btn-ghost text-white">MANAGEMENT</a>
+                <ul className="p-2 bg-base-100 z-10 border border-slate-300 ml-2">
+                  <li>
+                    <a className="hover:bg-sky-500/75">Managing Committee</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Members</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Co-opted Members</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Ex-Officio Members</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a className="btn btn-ghost text-white">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+          <div className="hidden sm:flex">
+            <ul className="menu menu-horizontal px-1">
+              <li>
+                <a className="btn btn-ghost text-white">HOME</a>
+              </li>
+              <li tabIndex={0}>
+                <a className="btn btn-ghost text-white">ABOUT US</a>
+                <ul className="p-2 bg-base-100 z-10 mt-2 border border-slate-300">
+                  <li>
+                    <a className="hover:bg-sky-500/75">History</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Objectives</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">History of H.R.Arakeri</a>
+                  </li>
+                </ul>
+              </li>
+              <li tabIndex={0}>
+                <a className="btn btn-ghost text-white">MANAGEMENT</a>
+                <ul className="p-2 bg-base-100 z-10 mt-2 border border-slate-300">
+                  <li>
+                    <a className="hover:bg-sky-500/75">Managing Committee</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Members</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Co-opted Members</a>
+                  </li>
+                  <li>
+                    <a className="hover:bg-sky-500/75">Ex-Officio Members</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a className="btn btn-ghost text-white">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Home</a>
-          </li>
-          <li tabIndex={0}>
-            <a>
-              About us
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
-            </a>
-            <ul className="p-2 bg-base-100 z-10">
-              <li>
-                <a>History</a>
-              </li>
-              <li>
-                <a>Objectives</a>
-              </li>
-              <li>
-                <a>History of H.R.Arakeri</a>
-              </li>
-            </ul>
-          </li>
-          <li tabIndex={0}>
-            <a className="justify-between">
-              Management
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
-            </a>
-            <ul className="p-2 bg-base-100 z-10">
-              <li>
-                <a>Managing Committee</a>
-              </li>
-              <li>
-                <a>Members</a>
-              </li>
-              <li>
-                <a>Co-opted Members</a>
-              </li>
-              <li>
-                <a>Ex-Officio Members</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a>Contact us</a>
-          </li>
-        </ul>
-      </div>
-      <div className="navbar-end"></div>
     </nav>
   );
 }
