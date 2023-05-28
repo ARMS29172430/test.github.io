@@ -56,7 +56,7 @@ function Management() {
       <div className="managingComittee">
         <h4> Managing Committee 2022 - 2025 </h4>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 m-5">
         <CardComponent
           memberPhoto={member1}
           memberName={'Smt. C. N. Nandini Kumari'}

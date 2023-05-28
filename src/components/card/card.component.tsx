@@ -8,10 +8,10 @@ function CardComponent(cardInputs: CardObject) {
         <figure>
           <img src={cardInputs.memberPhoto} alt={cardInputs.memberName} className="rounded-xl" />
         </figure>
-        <div className="card-body items-center text-center">
+        <span className="card-body items-center text-center">
           <h2 className="card-member-name">{cardInputs.memberName}</h2>
           <p className="card-member-post">{cardInputs.memberPost}</p>
-        </div>
+        </span>
       </div>
     </>
   );
